@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  goapp:
+    container_name: "go_object_detection"
+    build:
+      context: .
+    environment:
+      - DISPLAY=${DISPLAY}
+    devices:
+      - "/dev/video0:/dev/video0:rw"
+    volumes:
+      - ".:/go/app"
+      - "/tmp/.X11-unix:/tmp/.X11-unix"
+    network_mode: host
