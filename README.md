@@ -24,6 +24,10 @@ Tensorflow was used with a pre-trained model called COCO SSD, to perform the det
 
 ---
 
+## Demo
+
+https://user-images.githubusercontent.com/22561893/232327621-d48de6ee-3f16-446b-820f-b4ba58f1d859.mp4
+
 ## Environment
 
 The entire environment of this application is running on Docker, but there are some important points to be raised, the window that opens via Docker showing the detection preview can only be viewed if you use Linux.
